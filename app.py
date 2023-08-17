@@ -10,7 +10,7 @@ import plotly.express as px
 @st.cache_data
 def load_model():
     model = CNN()
-    model = torch.load('./model/model.pth').to('cpu')
+    model = model.load_state_dict(torch.load('./model/model.pth', map_location=torch.device('cpu')))
     model.eval()
     return model
 
