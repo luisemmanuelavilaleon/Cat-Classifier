@@ -1,7 +1,7 @@
 streamlit-image-select
 numpy
 pandas
-opencv-python
+opencv-python-headless
 matplotlib
 torch
 torchvision
