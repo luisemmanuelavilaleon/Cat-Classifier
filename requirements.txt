@@ -1,0 +1,6 @@
+streamlit-image-select
+numpy
+pandas
+opencv-python
+matplotlib
+torch
